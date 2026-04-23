@@ -22,7 +22,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.image("logo copy.png", width=200)
+st.image("logo.png", width=200)
 st.markdown(
     """
     <h2 style="margin-top: -19px; margin-bottom: -6px;">
