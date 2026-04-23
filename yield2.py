@@ -22,17 +22,23 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.image("logo.png", width=200)
+st.image("logo copy.png", width=200)
 st.markdown(
     """
-    <h2 style="margin-top: -20px;">
+    <h2 style="margin-top: -19px; margin-bottom: -6px;">
         AI Based Advanced Sugarcane Yield Prediction Model
     </h2>
     """,
     unsafe_allow_html=True,
 )
-st.write("Upload historical data, compare Linear Regression, Random Forest, and Hybrid model performance, then predict yield for fresh input data.")
-st.write("Proprietary AI based yield prediction model developed by Geotrans Technologies Pvt. Ltd.")
+st.markdown("""
+<p style="margin-bottom: 0.5px;">
+Upload historical data, compare Linear Regression, Random Forest, and Hybrid model performance, then predict yield for fresh input data.
+</p>
+<p style="margin-top: 0px;">
+Proprietary AI based yield prediction model developed by Geotrans Technologies Pvt. Ltd.
+</p>
+""", unsafe_allow_html=True)
 
 # ---------------------------------
 # Helper functions
