@@ -16,7 +16,7 @@ st.set_page_config(page_title="Sugarcane Yield Prediction", layout="wide")
 st.markdown("""
     <style>
         .block-container {
-            padding-top: 2.5rem;
+            padding-top: 3rem;
             padding-bottom: 1rem;
         }
     </style>
