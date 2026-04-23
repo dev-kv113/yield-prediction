@@ -13,7 +13,16 @@ from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 # ---------------------------------
 st.set_page_config(page_title="Sugarcane Yield Prediction", layout="wide")
 
-st.image("logo.png", width=150)  # adjust size if needed
+st.markdown("""
+    <style>
+        .block-container {
+            padding-top: 2.5rem;
+            padding-bottom: 1rem;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+st.image("logo.png", width=200)
 st.markdown(
     """
     <h2 style="margin-top: -20px;">
@@ -24,7 +33,6 @@ st.markdown(
 )
 st.write("Upload historical data, compare Linear Regression, Random Forest, and Hybrid model performance, then predict yield for fresh input data.")
 st.write("Proprietary AI based yield prediction model developed by Geotrans Technologies Pvt. Ltd.")
-
 
 # ---------------------------------
 # Helper functions
